@@ -53,7 +53,7 @@ export default function Board() {
 
   return (
     <div className="text-center bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto mt-10">
-      <h2 className="text-2xl font-bold mb-4">🏆 Scoreboard</h2>
+      <h2 className="text-2xl font-bold mb-4">Scoreboard</h2>
 
       <div className="grid grid-cols-3 gap-4 text-sm font-semibold mb-4">
         <div className="bg-blue-100 rounded p-2">X Wins: {x_score}</div>
